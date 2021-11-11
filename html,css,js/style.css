@@ -1,0 +1,23 @@
+.bg{
+    background: url('https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270')no-repeat center/ cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index:-1;
+    filter: blur(0px);
+
+}
+
+.loading-text{
+    font-size: 4rem;
+    color: azure;
+    font-weight: 500;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
